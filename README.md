@@ -1,7 +1,6 @@
 
-## Bellotero io
+## LoanReact io
 
-Proyecto prueba para Maniak
 El proyecto fue creado vía create-react-app por rapidez y practicidad
 
 Se corre ejecutando:
