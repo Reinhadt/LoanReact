@@ -1,0 +1,153 @@
+accent_color = #071eb3
+text_color = #161616
+secondary_text_color = #a5a5a5
+light_background = #f9faff
+ffamily = 'Roboto'
+
+body, html
+    overflow-x hidden
+    width 100%
+    height 100%
+    background light_background
+    font-family: ffamily, sans-serif
+    color: text_color
+
+// .homeContainer
+//     position absolute
+//     top: 50%
+//     transform: translateY(-50%)
+
+.pageTitle
+    background accent_color
+    color white
+    width auto
+    max-width 380px
+    padding 5px 12px
+    font-size 32px
+    font-weight: bolder
+    margin-bottom: 1em
+
+.pageDesc
+    font-size: 14px
+    font-weight: bold
+    color: text_color
+    max-width: 95%
+
+.carouselCont
+    background white
+    padding 30px
+    position relative
+    .author
+        h1
+            font-size: 32px
+            font-weight: bold
+            line-height: 1.5
+        p
+            font-size: 14px
+            color: secondary_text_color
+    .comment
+        h2
+            font-size: 24px
+            color: text_color
+            font-weight: bold
+            line-height: 1.33
+    .botonera
+        position: absolute
+        right -52px
+        display: flex
+        align-items: center
+        .activo
+            padding: 0px 20px
+            background: accent_color
+            color: white
+            font-family: 'Cormorant Garamond'
+            font-size: 32px
+            font-style: italic
+            letter-spacing: 0.69px
+            height 56px
+        button
+            background: accent_color
+            color: white
+            border: none
+            font-size: 15px
+            padding: 12px 20px
+            height 56px
+
+.input-range
+    margin-bottom: 1em
+    span.input-range__label-container
+        display none
+header
+    background: white
+    padding: 15px 0
+    nav
+        ul
+            display flex
+            justify-content: space-between
+            align-items: center
+            width 100%
+            margin: 0
+            li
+                list-style: none
+                a
+                    font-size: 14px
+                    font-weight: 500
+                    color: accent_color
+                    letter-spacing: 0.3px
+                .itemActive::before
+                    content: ''
+                    width: 100%
+                    height 4px
+                    background: accent_color
+                    display: block
+                    position relative
+                    top -15px
+
+.loading
+    font-size 22px
+    font-weight 500
+    color: accent_color
+    position absolute
+    top: 50%
+    left: 50%
+
+.content
+    margin-top: 6em
+
+.sliderSlave
+    font-size: 36px
+    font-weight: 500
+    line-height: 1.11
+    letter-spacing: 0.77px
+    text-align: right
+    color: text_color
+    padding: 5px
+    background: white
+    border-radius: 4px
+    border 1px solid #d6dcff
+    float: right
+    width 190px
+
+.sliderSlave.employee
+    max-width: 67px
+
+.calcSign
+    float: left 
+    font-size: 24px
+    font-weight: 500
+    line-height: 1.67
+    letter-spacing: 0.51px
+    color: #dcdcdc
+
+.calcSignTotals
+    font-size: 24px
+    color: accent_color
+    line-height: 1.11
+    letter-spacing: 0.77px
+
+.cifras
+    font-size: 50px
+    font-weight: 500
+    line-height: 1
+    letter-spacing: 1px
+    color: accent_color
